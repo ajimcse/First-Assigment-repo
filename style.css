@@ -39,6 +39,8 @@
     border-radius: 5px;
     padding: 20px 25px;
     margin-right: 224px;
+    font-size: 20px;
+    font-weight: 400;
 }
 /*----- banner-section style end ----*/
 
@@ -187,5 +189,6 @@
     padding: 15px 20px;
     color: #F15b22;
     font-size: 20px;
+    font-weight: 400;
 }
 /*------ footer-section style end------*/
