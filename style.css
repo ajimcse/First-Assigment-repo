@@ -5,7 +5,7 @@
 }
 /* failure-section style */
 .banner {
-    background-image: url("../images/banner/banner2.png");
+    background-image: url("./images/banner/banner2.png");
     background-repeat: no-repeat;
     width: 1600px;
     height: 809px;
