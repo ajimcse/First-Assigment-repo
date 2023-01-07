@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+
+    font-family: 'Open Sans', sans-serif;
+}
+/* failure-section style */
+.banner-section {
+    background-image: url('../images/banner/banner2.png');
+    background-repeat: no-repeat;
+
+    padding-top: 25px;
+    padding-bottom: 1px;
+}
+
+.heda-title {
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 75px;
+    color: #151414;
+}
+
+.header-section {
+    text-align: right;
+    margin: 233px 230px 140px 544px;
+}
+
+.head-description {
+    margin: 32px 0;
+    line-height: 20px;
+    color: #444343;
+}
+
+.btn {
+    background-color: #F15b22;
+    border: 0;
+    border-radius: 5px;
+    padding: 15px 20px;
+    color: #fff;
+    font-size: 20px;
+}
+/* failure-section style */
+.failure-section{
+    display: flex;
+    gap: 87px;
+    align-items: center;
+    max-width: 1072px;
+    margin: 0 auto;
+}
+
+.mane {
+    margin-top: 146px;
+    width: 569px;
+
+}
+
+.text {
+    margin-top: 393px;
+    width: 453px;
+}
+
+.failure-section ul li img {
+    width: 5%;
+
+}
+
+
+.failure-section ul li {
+    list-style: none;
+    line-height: 30px;
+}
+
+
+
+.fa-check {
+    color: #F15b22;
+}
+
+
+/* plan section style */
+.sikll-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.plan{
+    margin: 130px 230px;
+    max-width: 1141px;
+}
+
+
+.plan h4 {
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.sikll {
+    text-align: center;
+    
+}
+.my-plans {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 50px 0 55px 0;
+}
+/*------ awlays-section*/
+
+.awlays-section{
+    
+}
+
+
+
+
+
+/*------ footer-section*/
+.footer-section {
+    display: flex;
+    margin: 0 auto;
+    background-color: #151414;
+   justify-content: center;
+}
+
+.footer-section p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom:20px ;
+}
+
+
+
+.contact {
+    margin: 200px;
+}
+
+.messeag {
+    margin: 250px;
+}
+
+.Sub{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.Future {
+    color: #fff;
+    font-size: 45px;
+    font-family: 700;
+}
+.info{
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.email{
+    width: 220px;
+    height: 52px;
+    background: none;
+    border: 2px solid #FFFFFF;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
