@@ -68,7 +68,10 @@
     list-style: none;
     line-height: 30px;
 }
-
+.My-failures{
+    font-size: 40px;
+    font-weight: 700;
+}
 
 
 .fa-check {
@@ -107,9 +110,18 @@
 }
 /*------ awlays-section*/
 
-.awlays-section{
-    
+/* .awlays-section{
+   text-align: center;
 }
+.watch{
+    position: relative;
+ 
+}
+.grad{
+    position:absolute;
+    content: ('');
+    margin-left: 0;
+} */
 
 
 
@@ -163,4 +175,12 @@
     margin-bottom: 15px;
     margin-top: 10px;
     border-radius: 5px;
+}
+.sub-btn{
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    padding: 15px 20px;
+    color:#F15b22;
+    font-size: 20px; 
 }
