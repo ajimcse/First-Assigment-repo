@@ -1,110 +1,99 @@
 * {
     margin: 0;
-
-    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+   font-family: 'Open Sans', sans-serif;
 }
-/* failure-section style */
+
+/*------ banner-section style start ----*/
 .banner {
     background-image: url("./images/banner/banner2.png");
     background-repeat: no-repeat;
     width: 1600px;
     height: 809px;
-  }
-  .head-description {
+}
+.head-description {
     margin: 32px 0;
-  }
-  .header-container {
+}
+
+.header-container {
     align-items: center;
     padding: 233px 231px 142px 700px;
     text-align: end;
-  }
-  .head-title {
+}
+.head-title {
     margin-right: 224px;
     font-weight: 700;
     font-size: 65px;
     line-height: 76px;
     color: #151414;
-  }
-  .head-description {
+}
+.head-description {
     color: #444343;
     margin: 32px 224px 0 0;
     margin-bottom: 32px;
-  }
-  .button {
+}
+.button {
     color: white;
     background-color: #f15b22;
     border: 0;
     border-radius: 5px;
     padding: 20px 25px;
     margin-right: 224px;
-  }
-/* failure-section style */
-.failure-section{
+}
+/*----- banner-section style end ----*/
+
+
+/*----- failure-section style start----- */
+.failure-section {
     display: flex;
     gap: 87px;
     align-items: center;
     max-width: 1072px;
     margin: 0 auto;
 }
-.head-descriptions{
+.head-descriptions {
     color: #444343;
     margin: 15px 70px 0 0;
     margin-bottom: 32px;
-  }
-
+}
 .mane {
     margin-top: 146px;
     width: 569px;
-
 }
-
 .text {
     margin-top: 393px;
     width: 453px;
 }
-
 .failure-section ul li img {
     width: 5%;
-
 }
-
-
 .failure-section ul li {
     list-style: none;
     line-height: 30px;
 }
-.My-failures{
+.My-failures {
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 700
 }
+/*----- failure-section style end -----*/
 
-
-.fa-check {
-    color: #F15b22;
-}
-
-
-/* plan section style */
+/*----- my-plans-section style start----- */
 .sikll-container {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
 }
-.plan{
+.plan {
     margin: 130px 230px;
     max-width: 1141px;
 }
-
-
 .plan h4 {
     font-size: 30px;
     font-weight: 700;
     padding: 10px;
 }
-
 .sikll {
     text-align: center;
-    
 }
 .my-plans {
     margin: 0 auto;
@@ -113,48 +102,76 @@
     font-weight: 700;
     margin: 50px 0 55px 0;
 }
+/*----- my-plans-section style end------ */
 
-/*------ footer-section*/
+/*----- bouns-section style end------ */
+.bouns-section{
+    background-image: url("./images/watch.png");
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 300px;
+    background: linear-gradient(rgb(218, 49, 15),rgba(167, 230, 8, 0.594));
+    border-radius: 8px;
+    margin: 0 auto;
+    }
+  .smart-advice{
+    font-weight: 700;
+    font-size: 40px;
+    width: 459px;
+    height: 94px;
+    padding-top: 59px;
+    margin-left: 64px;
+  }
+  .call-btn{
+    margin:24px 0 59px 64px;
+    width: 160px;
+    height: 64px;
+    color: #F15B22;
+    background: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 0;
+    padding: 20px 36px;
+  }
+
+/*------ footer-section style start------*/
 .footer-section {
+    /* margin-top: 130px; */
     display: flex;
     margin: 0 auto;
     background-color: #151414;
-   justify-content: center;
+    justify-content: center;
+    margin-top: 130px;
 }
-
-.footer-section p {
+.footer-section p{
     color: #fff;
     font-size: 16px;
     font-weight: 400;
-    margin-bottom:20px ;
+    margin-bottom: 20px;
 }
-
-
-
-.contact {
+.contact{
     margin: 200px;
 }
-
-.messeag {
+.messeag{
     margin: 250px;
 }
-
 .Sub{
     color: #fff;
     font-size: 30px;
     font-weight: 700;
 }
-
-.Future {
+.Future{
     color: #fff;
     font-size: 45px;
     font-family: 700;
 }
+
 .info{
     margin-bottom: 30px;
     margin-top: 10px;
 }
-.email{
+.email {
     width: 220px;
     height: 52px;
     background: none;
@@ -168,13 +185,7 @@
     border: 0;
     border-radius: 5px;
     padding: 15px 20px;
-    color:#F15b22;
-    font-size: 20px; 
+    color: #F15b22;
+    font-size: 20px;
 }
-.head-box{
-    margin-right: 0;
-}
-
-
-
-/* header style */
+/*------ footer-section style end------*/
